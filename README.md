@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Shop Management Web Application (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend portion of a comprehensive web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. The application is designed to empower shop owners with efficient tools for managing customer information, tracking recent transactions, monitoring outstanding dues, and recording purchases.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication:** Secure user authentication system allows shop owners to log in and access the application's features securely.
+- **Customer Management:** Easily add, update, and delete customer information, including contact details and purchase history.
+- **Transaction Tracking:** Keep track of recent transactions, including purchases made by customers and payments received.
+- **Dues Monitoring:** Monitor outstanding dues and overdue payments, enabling better financial management.
+- **Responsive Design:** The application is designed to be responsive, ensuring optimal user experience across various devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React:** A JavaScript library for building user interfaces.
+- **React Router:** Declarative routing for React applications, enabling navigation between different components.
+- **Redux:** A predictable state container for JavaScript apps, used for managing application state.
+- **Axios:** A promise-based HTTP client for the browser and Node.js, used for making API requests.
+- **Material-UI:** A popular React UI framework for building responsive and customizable user interfaces.
+- **Formik:** A form library for React, used for building and validating forms.
+- **Yup:** A schema validation library for JavaScript objects, used in conjunction with Formik for form validation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the frontend portion of the application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
+5. Open your web browser and navigate to `http://localhost:3000` to view the application.
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please [open an issue](https://github.com/debarghya-m/shop_dashboard_frontend/issues) or submit a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
